@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/windows_11/static/css/main.79d31bef.chunk.css",
+    "main.js": "/windows_11/static/js/main.c7ea29eb.chunk.js",
+    "main.js.map": "/windows_11/static/js/main.c7ea29eb.chunk.js.map",
+    "runtime-main.js": "/windows_11/static/js/runtime-main.5f826ae2.js",
+    "runtime-main.js.map": "/windows_11/static/js/runtime-main.5f826ae2.js.map",
+    "static/js/2.499c0f77.chunk.js": "/windows_11/static/js/2.499c0f77.chunk.js",
+    "static/js/2.499c0f77.chunk.js.map": "/windows_11/static/js/2.499c0f77.chunk.js.map",
+    "index.html": "/windows_11/index.html",
+    "static/css/main.79d31bef.chunk.css.map": "/windows_11/static/css/main.79d31bef.chunk.css.map",
+    "static/js/2.499c0f77.chunk.js.LICENSE.txt": "/windows_11/static/js/2.499c0f77.chunk.js.LICENSE.txt",
+    "static/media/Videos file.png": "/windows_11/static/media/Videos file.3831de8f.png",
+    "static/media/arrow-left.svg": "/windows_11/static/media/arrow-left.a843cfca.svg",
+    "static/media/arrow-right.svg": "/windows_11/static/media/arrow-right.42e090e2.svg",
+    "static/media/arrow-top.svg": "/windows_11/static/media/arrow-top.e3028c28.svg",
+    "static/media/style.css": "/windows_11/static/media/bg1.1c52d284.jpg",
+    "static/media/desktop.png": "/windows_11/static/media/desktop.97dc764e.png",
+    "static/media/documents.png": "/windows_11/static/media/documents.3fc10b16.png",
+    "static/media/downloads.png": "/windows_11/static/media/downloads.2e80371c.png",
+    "static/media/folder.png": "/windows_11/static/media/folder.bae58340.png",
+    "static/media/login-screen.css": "/windows_11/static/media/login-background.1a9d1f17.png",
+    "static/media/login-user.png": "/windows_11/static/media/login-user.c9d65703.png",
+    "static/media/logo-white.svg": "/windows_11/static/media/logo-white.94af9927.svg",
+    "static/media/marker.png": "/windows_11/static/media/marker.08ba76b1.png",
+    "static/media/music.png": "/windows_11/static/media/music.81c76476.png",
+    "static/media/onedrive.png": "/windows_11/static/media/onedrive.3f4b73d4.png",
+    "static/media/path-down.svg": "/windows_11/static/media/path-down.ac4c12e9.svg",
+    "static/media/path.svg": "/windows_11/static/media/path.f3e482ed.svg",
+    "static/media/pdf.png": "/windows_11/static/media/pdf.6ce1c821.png",
+    "static/media/pictures.png": "/windows_11/static/media/pictures.ca30156e.png",
+    "static/media/stop.png": "/windows_11/static/media/stop.e4d99c18.png",
+    "static/media/user-pc.png": "/windows_11/static/media/user-pc.9fee239d.png",
+    "static/media/video.png": "/windows_11/static/media/video.77185534.png",
+    "static/media/videos.png": "/windows_11/static/media/videos.539080fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f826ae2.js",
+    "static/js/2.499c0f77.chunk.js",
+    "static/css/main.79d31bef.chunk.css",
+    "static/js/main.c7ea29eb.chunk.js"
+  ]
+}
