@@ -1,0 +1,123 @@
+.progress-bar-window {
+  width: 80% !important;
+  height: auto !important;
+  background-color: white;
+  min-height: auto !important;
+}
+
+.progress-bar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-inline: 8px;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  height: 120px;
+  padding-inline: 16px;
+}
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #3498db;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A7E591), to(#06B025));
+  background: linear-gradient(to bottom, #A7E591, #06B025);
+  -webkit-animation: fileCopy 5s ease-in-out forwards;
+          animation: fileCopy 5s ease-in-out forwards;
+}
+
+@-webkit-keyframes fileCopy {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes fileCopy {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.progress {
+  width: 100%;
+  height: 2.5rem;
+  position: relative;
+  background: #e6e6e6;
+  border: 1px solid #bcbcbc;
+  position: relative;
+}
+
+.progress-text-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.progress .progress_inner {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  background-color: #06b025 !important;
+  background: -webkit-gradient(linear, right top, left top, from(#06b025), color-stop(30%, #06b025), color-stop(45%, #5faf6c), color-stop(50%, #c5ddc6), color-stop(60%, #5faf6c), color-stop(70%, #06b025), to(#06b025));
+  background: linear-gradient(to left, #06b025 0%, #06b025 30%, #5faf6c 45%, #c5ddc6 50%, #5faf6c 60%, #06b025 70%, #06b025 100%);
+  background-repeat: no-repeat;
+  background-size: 1000px 100%;
+  display: inline-block;
+  position: relative;
+  -webkit-animation-duration: 5.25s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transition: width .6s ease;
+  transition: width .6s ease;
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+/* for input :v */
+.change {
+  width: 50px;
+}
+/*# sourceMappingURL=progress.css.map */

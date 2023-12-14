@@ -1,0 +1,110 @@
+
+/*----------------------------------------Camera-----------------------------------*/
+#video-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:700px;
+
+    height: 550px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 32px;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 800px )
+{
+  
+}
+  
+#video {
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.camera-controls {
+
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    
+
+    .control-container{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    .control-container-deactive{
+        color:gray;
+    }
+   .button-container{
+        width: 40px;
+        aspect-ratio: 1;
+        border-radius: 1;
+        border-radius: 50%;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+   }
+   .start-button{
+        width: 30px;
+        aspect-ratio: 1;
+        border-radius: 1;
+        border-radius: 50%;
+        background-color: white;
+        
+   }
+}
+.controls-stop{
+    .button-container{
+        width: 40px;
+        aspect-ratio: 1;
+        border-radius: 1;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+   }
+   .start-button{
+        width: 28px;
+        aspect-ratio: 1;
+        border-radius: 1;
+        border-radius: 50%;
+        background-color: red;
+        
+   }
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/*----------------------------------------Camera END ------------------------------------*/

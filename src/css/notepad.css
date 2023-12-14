@@ -1,0 +1,54 @@
+.notepad {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+.notepad .window-bar-top {
+  background-color: white !important;
+}
+
+.notepad .notepad-text-area {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 8px;
+  resize: none;
+}
+
+.notepad-menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #DDDDDD !important;
+  margin-inline: 8px;
+  font-size: 12px;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.notepad-menus .notepad-menu-item {
+  padding-inline: 4px;
+  height: inherit;
+  padding: 4px;
+  padding-inline: 6px;
+  position: relative;
+}
+
+.notepad-menus .notepad-menu-item:hover {
+  background-color: rgba(0, 178, 255, 0.16);
+}
+
+.notepad-container {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=notepad.css.map */

@@ -1,0 +1,377 @@
+.FileExplorerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+   
+    
+}
+
+header{
+    width: inherit;
+    background-color: $light-blue;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: auto;
+
+}
+
+.main{
+    width: 100%;
+    //height: 79%;
+    margin-top: 1%;
+    //background-color: $Marine-blue;
+    display: flex;
+    height: -webkit-fill-available;
+    height: inherit;
+    background-color: #5AC2E7;
+
+}
+.vertical-seperator{
+    background-color: $gray;
+    height: 100%;
+    width: 4px;
+    border-radius: 4px;
+}
+.navigation{
+    
+    height: 100%;
+    width: 15%;
+    min-width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+
+.explorer{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: auto;
+    
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: $light-gray;
+}
+
+
+.file{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 94px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem;
+    text-align: center;
+    user-select: none;
+
+}
+
+
+.file:hover,.file-selected{
+    background-color: $hover-bg;
+    cursor: pointer;
+}
+.file-icon , .image-preview{
+    width: 94px;
+    height: 94px;
+    object-fit: cover;
+    object-fit:  scale-down;
+}
+.image-preview{
+
+}
+.file-name , .file-name:focus-visible{
+    
+    border: none;
+    font-size: 12px;
+    width: inherit;
+    text-align: center;
+    background-color: transparent;
+    pointer-events: none;
+    user-select: none;
+    //white-space: nowrap;
+    //overflow: hidden;
+    //text-overflow: ellipsis;
+}
+
+.rename-input{
+    text-align: center;
+    border: 1px solid black !important;
+    width: inherit;
+}
+
+
+
+
+
+
+/**------------------------Header -----------------------*/
+
+.tools{
+    width: 100%;
+    height: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom : solid 1px $gray; 
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 12px;
+    padding-inline: 32px;
+}
+.header-nav{
+    padding-inline: 8px;
+    background-color: white;
+    height: 34%;
+    display: flex;
+    gap: 16px;
+    height: 42px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+.nav-arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: 16px;
+}
+.nav-arrow-container{
+    width: 30px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-arrow{
+    color : gray;
+    width: 30px;
+    height: 36px;
+    
+}
+
+.nav-arrow-container:hover{
+    background-color: $hover-bg;
+}
+
+.nav-path{
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-inline: 16px;
+    border:1px solid $gray;
+    overflow-x: auto;
+    width: 100% !important;
+    
+}
+.path-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: -webkit-fill-available;
+    padding-inline: 8px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+.path-item{
+    font-size: 14px;
+}
+.path-item:hover,.path-item-container:hover{
+    background-color: $hover-bg;
+}
+.path-icon{
+    width: 30px;
+    height: 36px;
+}
+
+.nav-search-container{
+    width: 20%;
+    border:1px solid $gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}
+.nav-search-icon{
+        width: 16px;
+        height: 16px;
+}
+.nav-search-input{
+
+    width: 90%;
+    border:none;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.nav-search::placeholder{
+    font-size: inherit;
+}
+
+@media only screen and (max-width: $mobile-width )
+{
+    .main{
+
+    }
+    .tools{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .nav-search-container{
+        display: none;
+    }
+    .nav-path{
+        width: 100%;
+    }
+    .navigation{
+        display: none;
+    }
+}
+
+
+//          ---------- tools  ---------
+.tool-icon{
+    width: 18px;
+    height: 18px;
+}
+.tool-title{}
+.tool-vertical-line{
+    height: 30px;
+    width: 1px;
+    background-color: $gray;
+}
+//          ---------- tools  end ---------
+
+
+
+/**------------------------Header -----------------------*/
+
+
+
+.files-group-container{
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 8px;
+    
+}
+
+.seperator-line-container{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    gap: 8px;
+    padding-inline: 0px;
+    justify-content: center;
+    align-items: center;
+
+
+    .icon{
+        width: 30px;
+    }
+    
+    .text{
+        color: #1E3287;
+        text-wrap: nowrap;
+    }
+    .line{
+        width:  -webkit-fill-available;
+        background-color: $light-gray;
+        height: 2px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//--------------------------------Navigation ----------------------------------------
+
+.side-nav-menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    gap: 8px;
+    padding: 8px;
+    font-size: 14px;
+    
+}
+.nav-menu-leader{
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom:4px;
+    cursor: pointer;
+    gap: 8px;
+}
+.nav-menu-arrow{}
+.nav-menu-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    left: 50%;
+    //transform:translate( 50%,0);
+    flex-direction: column;
+    margin-inline: auto;
+    gap: 8px;
+   
+    
+}
+.nav-menu-item{
+    width: 100%;
+    padding-left: 32px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.nav-menu-item:hover,.nav-menu-leader:hover{
+    background-color: $hover-bg;
+}
+.nav-menu-item-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+.nav-menu-item-text{}

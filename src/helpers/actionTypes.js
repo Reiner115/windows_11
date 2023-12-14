@@ -1,0 +1,32 @@
+export const SELECT_FILE = "SELECT_FILE";
+export const OPEN_FILE = "OPEN_FILE";
+export const OPEN_FOLDER = "OPEN_FOLDER";
+export const UPLOAD_FILE = "UPLOAD_FILE";
+export const BACK = "BACK";
+export const RENAME_FILE = "RENAME";
+export const COPY_FILE = "COPY";
+export const DELETE_FILE = "DELETE";
+export const REFRESH = "REFRESH";
+export const UPDATE_STATE = "UPDATE_STATE";
+export const REFRESH_STATE = "REFRESH_STATE";
+export const CREATE_FOLDER = "CREATE_FOLDER";
+export const LOGIN_ACTION = "LOGIN_ACTION";
+export const SIGN_UP = "SIGN_UP";
+export const LOGIN_LOADING_SCREEN = "LOGIN_LOADING_SCREEN";
+
+export const RESET_CONTENT = "RESET_CONTENT";
+export const UNAUTHORIZED = "UNAUTHORIZED";
+export const LOADING_STATE = "UNAUTHORIZED";
+export const SHOW_LOADING_STATE = "SHOW_LOADING_STATE";
+export const HIDE_LOADING_STATE = "HIDE_LOADING_STATE";
+export const SET_PROGRESS_STATE = "SET_PROGRESS_STATE";
+
+export const SHOW_ERROR_MESSAGE = "SHOW_ERROR_MESSAGE";
+export const SET_APP_ON_TOP_VIEW = "SET_APP_ON_TOP_VIEW";
+
+export const MINIMIZE_OR_MAXIMIZE_APP = "MINIMIZE_OR_MAXIMIZE_APP";
+export const MINIMIZE_APP = "MINIMIZE_APP";
+export const MAXIMIZE_APP = "MAXIMIZE_APP";
+export const CLOSE_APP = "CLOSE_APP";
+export const OPEN_APP = "OPEN_APP";
+export const OPEN_APP_WITH_SRC = "OPEN_APP_WITH_SRC";

@@ -1,0 +1,53 @@
+.desktop{
+    width: 100%;
+    height: 100%;    
+    //display: grid;
+    //grid-template-rows: min-content;
+    position: relative;
+    transition: opacity .2s ease-in-out;
+    //top: 180px !important;
+    
+   
+}
+
+.desktop-hidden{
+    opacity: 0;
+    
+}
+
+.desktop-item-container{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 12px;
+    border-radius: 2px;
+
+}
+.desktop-item-container:hover{
+    background-color: rgba(0, 178, 255, .16);
+
+}
+.desktop-item-icon{
+    width: 40px;
+    height: 40px;
+}
+.desktop-item-title{
+    color: white;
+    font-size: 12px;
+    user-select:none;
+}
+
+
+
+/* Define styles for screens smaller than 768px (typical mobile devices) */
+@media (min-width: 768px) {
+    
+
+
+  }
+  

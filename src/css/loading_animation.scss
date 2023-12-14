@@ -1,0 +1,94 @@
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+
+  }
+  .loading-container {
+    position: relative;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+    width: 200px;
+    height: 200px;
+    overflow: visible;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+    
+  }
+  .loading {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(0px, 100px);
+    left: 75px;
+    top: 75px;
+
+    animation-name: test;
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+    animation-duration: infinite;
+    animation: test 3s ease-in-out infinite;
+    background-color: #0078D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .loading:nth-child(2) {
+    position: absolute;
+    background-color: #E81123;
+    //animation-delay: .5s;
+
+    transform: translate(0px, -100px);
+  }
+  .loading:nth-child(3) {
+    //animation-delay: 1s;
+      background-color: #10893E;
+    position: absolute;
+
+    transform: translate(100px, 0px);
+  }
+  .loading:nth-child(4) {
+   // animation-delay: 1.5s;
+      background-color: #FF8C00;
+    position: absolute;
+
+    transform: translate(-100px, 0px);
+  }
+
+  .loading-text{
+      color: white;
+      font-size: 1.5rem;
+      position: absolute;
+      font-weight: bolder;
+
+  }
+
+  .dot{
+      background-color: white;
+      width: 20px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+  }
+
+  @keyframes test {
+    from {
+      rotate: 0deg;
+    }
+
+    to {
+      rotate: 360deg;
+    }
+  }

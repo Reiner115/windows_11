@@ -1,0 +1,174 @@
+.music-player-container{
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  min-width: 350px;
+}
+
+
+#music-player {
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+  height: 100%;
+
+    .logo{
+      width: 80px;
+    }
+  }
+
+  #music-player-title {
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: white;
+  }
+
+  
+
+  audio {
+    width: 100%;
+    outline: none;
+    margin: 20px 0;
+  }
+
+  .player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .player-controls button {
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .player-controls button:hover {
+    background-color: #0056b3;
+  }
+
+  .player-progress {
+    width: 100%;
+    height: 5px;
+    background-color: #444;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+
+  .player-progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #007BFF;
+    border-radius: 2px;
+    transition: width 0.1s;
+    height: 5px;
+  }
+
+  .volume-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .volume-control input[type="range"] {
+    width: 100%;
+    background-color: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .volume-control input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #007BFF;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+ 
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ background: #0078d4;
+ cursor: pointer;
+}
+
+  .time-display {
+    font-size: 14px;
+    margin-top: 10px;
+    color: inherit;
+  }
+     /* ... Previous CSS styles ... */
+
+     .song-title {
+      color: inherit;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .player-progress-bar-container {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s;
+  }
+
+  #play-pause:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+
+  /* Add a simple fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #visualizer{
+    width: inherit;
+    
+    width: 90%;
+    height: 200px;
+    border: 1px solid #ffffff30;
+    border-radius: 4px;
+  }
+
+  input[type="range"] {
+  width: 100px;
+ 
+  background: transparent;
+  border: none;
+  height: 6px;
+  margin: 0 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+ 
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #0078d4;
+  cursor: pointer;
+}

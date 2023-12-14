@@ -1,0 +1,32 @@
+
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    flex-direction: column;
+    gap: 8px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+
+
+}
+.app:hover{
+    background-color: $hover-bg;
+}
+
+.app-icon{
+    width: 30px;
+    aspect-ratio: 1;
+    
+
+}
+.app-title{
+    color:white;
+    font-size: 12px;
+    user-select: none;
+}

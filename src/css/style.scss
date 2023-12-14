@@ -1,0 +1,55 @@
+
+
+$light-blue : #EFF4F9;
+
+$gray : #DDDDDD;
+$light-gray : #F2F2F2;
+$hover-bg: rgba(0, 178, 255, .16);
+$focus-bg: rgba(0, 183, 255, .25);
+//$apps-bg : #f3f3f3 radial-gradient(#eff4f9 75%, #f3f3f3 100%) no-repeat fixed;
+$apps-bg:rgba(242, 242, 242, .95);
+$red : #FC3131;
+
+$mobile-width:900px;
+
+@import "./global.scss";
+@import "./explorer.scss";
+@import "./menu.scss";
+@import "./taskbar.scss";
+@import "./desktop.scss";
+@import "./notes.scss";
+@import "./notepad.scss";
+@import "./videoPlayer.scss";
+@import "./loading_animation.scss";
+@import "./progress.css";
+@import "./musicPlayer.scss";
+@import "./calc.scss";
+@import "./terminal.scss";
+@import "./window-bar.scss";
+@import "./camera.scss";
+@import "./right-click-menu.scss";
+@import "./error.scss";
+@import "./application.scss";
+@import "./settings.scss";
+
+
+
+.image-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+
+}
+
+input {
+    border:none;
+}
+input:focus-visible{
+    border: 1px solid black;
+    outline: none;
+}
