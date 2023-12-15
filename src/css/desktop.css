@@ -2,8 +2,11 @@
   width: 100%;
   height: 100%;
   position: relative;
-  -webkit-transition: opacity .2s ease-in-out;
-  transition: opacity .2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: baseline;
 }
 
 .desktop-hidden {
@@ -14,19 +17,10 @@
   position: absolute;
   width: 80px;
   height: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
   margin: 12px;
   border-radius: 2px;
@@ -50,5 +44,4 @@
           user-select: none;
 }
 
-/* Define styles for screens smaller than 768px (typical mobile devices) */
-/*# sourceMappingURL=desktop.css.map */
+/* Define styles for screens smaller than 768px (typical mobile devices) *//*# sourceMappingURL=desktop.css.map */

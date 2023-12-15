@@ -10,28 +10,17 @@
   width: 100%;
   height: 100%;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .error-message-container {
   width: inherit;
   height: auto;
   padding: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
   font-size: 1rem;
   gap: 16px;
   padding-top: 20px;
@@ -41,16 +30,9 @@
 .error-footer {
   width: inherit;
   height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  align-items: center;
+  flex-direction: row-reverse;
   padding-inline: 16px;
   background-color: #F0F0F0;
 }
@@ -67,15 +49,9 @@
   height: 24px;
   background-color: #E1E1E1;
   border: 1px solid #0078D7;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 2px;
   cursor: pointer;
   font-size: 1rem;
@@ -85,5 +61,4 @@
           user-select: none;
 }
 
-/***************************END ERROR***************************************/
-/*# sourceMappingURL=error.css.map */
+/***************************END ERROR***************************************//*# sourceMappingURL=error.css.map */

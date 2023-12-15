@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .video-player-window {
   width: inherit;
   height: inherit;
@@ -12,55 +13,34 @@
   height: max-content;
   width: inherit;
   height: inherit;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background: black;
 }
 
 .video-container {
   height: inherit;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .video-player {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   width: 620px;
   border-radius: 5px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   width: auto;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .video-player .video-player-controls {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
   bottom: 0px;
@@ -98,16 +78,16 @@
 }
 
 .play::before {
-  content: "\25B6";
+  content: "▶";
   padding: 8px;
 }
 
 .pause::before {
-  content: "\II";
+  content: "II";
   padding: 8px;
 }
 
-input[type="range"] {
+input[type=range] {
   width: 100px;
   background: transparent;
   border: none;
@@ -115,7 +95,7 @@ input[type="range"] {
   margin: 0 10px;
 }
 
-input[type="range"]::-webkit-slider-thumb {
+input[type=range]::-webkit-slider-thumb {
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -126,7 +106,5 @@ input[type="range"]::-webkit-slider-thumb {
 .controls-hidden {
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 2s;
   transition: all 2s;
-}
-/*# sourceMappingURL=videoPlayer.css.map */
+}/*# sourceMappingURL=videoPlayer.css.map */

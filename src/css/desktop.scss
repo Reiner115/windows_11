@@ -6,6 +6,10 @@
     position: relative;
     transition: opacity .2s ease-in-out;
     //top: 180px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: baseline;
     
    
 }

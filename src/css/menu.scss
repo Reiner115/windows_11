@@ -22,6 +22,7 @@
     gap: 10px;
     grid-auto-rows: 100px;
     z-index: 101;
+    overflow: auto;
 
     
 }
@@ -40,3 +41,23 @@
     width: 40px!important;
     height: 40px!important;
 }
+
+
+@media screen and (max-width: 720px) {
+    .menu{
+        gap:4px;
+        width: 300px;
+        height: 320px;
+        overflow: auto;
+        bottom: 4rem;
+        
+    }
+    .menu-item-container{
+        width: 80px;
+        height: 80px;
+    }
+    .menu-item{
+        width: 30px!important;
+        height: 30px!important;
+    }
+  }

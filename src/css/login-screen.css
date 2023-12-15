@@ -6,15 +6,9 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #background {
@@ -30,32 +24,17 @@ body {
   top: 0;
   bottom: 0;
   left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #centercontainer {
   opacity: 0.8;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 24px;
 }
 
@@ -78,27 +57,23 @@ body {
   border: none;
   background-clip: padding-box;
   border-radius: 8px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   padding: 10px;
   outline: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.userinput::-webkit-input-placeholder {
-  color: #cac8c8;
+.userinput::-moz-placeholder {
+  color: rgb(202, 200, 200);
 }
 
 .userinput:-ms-input-placeholder {
-  color: #cac8c8;
-}
-
-.userinput::-ms-input-placeholder {
-  color: #cac8c8;
+  color: rgb(202, 200, 200);
 }
 
 .userinput::placeholder {
-  color: #cac8c8;
+  color: rgb(202, 200, 200);
 }
 
 .userinput:focus {
@@ -123,7 +98,6 @@ body {
 }
 
 .login-button:hover {
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: rgba(255, 255, 255, 0);
 }
@@ -139,5 +113,4 @@ body {
   #userpic {
     width: 55%;
   }
-}
-/*# sourceMappingURL=login-screen.css.map */
+}/*# sourceMappingURL=login-screen.css.map */

@@ -1,22 +1,13 @@
 /*----------------------------------------Camera-----------------------------------*/
 #video-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   width: 700px;
   height: 550px;
   display: flex;
   flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   background-color: black;
   justify-content: center;
   align-items: center;
@@ -34,61 +25,37 @@
 }
 
 .camera-controls {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   display: flex;
   justify-content: center;
   width: 100%;
   color: white;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   width: inherit;
 }
-
 .camera-controls .control-container {
   width: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   cursor: pointer;
 }
-
 .camera-controls .control-container-deactive {
   color: gray;
 }
-
 .camera-controls .button-container {
   width: 40px;
   aspect-ratio: 1;
   border-radius: 1;
   border-radius: 50%;
   background-color: gray;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .camera-controls .start-button {
   width: 30px;
   aspect-ratio: 1;
@@ -103,17 +70,10 @@
   border-radius: 1;
   border-radius: 50%;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .controls-stop .start-button {
   width: 28px;
   aspect-ratio: 1;
@@ -128,5 +88,4 @@ button {
   cursor: pointer;
 }
 
-/*----------------------------------------Camera END ------------------------------------*/
-/*# sourceMappingURL=camera.css.map */
+/*----------------------------------------Camera END ------------------------------------*//*# sourceMappingURL=camera.css.map */

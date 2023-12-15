@@ -4,9 +4,11 @@ export default class URLs {
     //static baseURL = "https://localhost:9000";
     //static baseURL = "https://192.168.154.78:9000";
     //static baseURL = "http://mohamed-adam.com:3000";
-    static baseURL = "https://mohamed-adam.com:4000";
+    //static baseURL = "https://mohamed-adam.com:4000";
     //static baseURL = "http://mohamed-adam.com:3000/windows_11";
 
+    //static baseURL = "http://windows11.mohamed-adam.com:3000";
+    static baseURL = "";
     static STATE = this.baseURL+"/state";
 
     static CLUOD = this.baseURL+"/public/images/";

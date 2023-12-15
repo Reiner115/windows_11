@@ -1,13 +1,7 @@
 .loading-screen {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   width: 100%;
   padding: 0%;
@@ -18,8 +12,7 @@
   height: 200px;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   overflow: visible;
 }
 
@@ -38,8 +31,7 @@
   aspect-ratio: 1;
   border-radius: 50%;
   position: absolute;
-  -webkit-transform: translate(0px, 100px);
-          transform: translate(0px, 100px);
+  transform: translate(0px, 100px);
   left: 75px;
   top: 75px;
   -webkit-animation-name: test;
@@ -52,36 +44,27 @@
   -webkit-animation: test 3s ease-in-out infinite;
           animation: test 3s ease-in-out infinite;
   background-color: #0078D7;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .loading:nth-child(2) {
   position: absolute;
   background-color: #E81123;
-  -webkit-transform: translate(0px, -100px);
-          transform: translate(0px, -100px);
+  transform: translate(0px, -100px);
 }
 
 .loading:nth-child(3) {
   background-color: #10893E;
   position: absolute;
-  -webkit-transform: translate(100px, 0px);
-          transform: translate(100px, 0px);
+  transform: translate(100px, 0px);
 }
 
 .loading:nth-child(4) {
   background-color: #FF8C00;
   position: absolute;
-  -webkit-transform: translate(-100px, 0px);
-          transform: translate(-100px, 0px);
+  transform: translate(-100px, 0px);
 }
 
 .loading-text {
@@ -114,5 +97,4 @@
   to {
     rotate: 360deg;
   }
-}
-/*# sourceMappingURL=loading_animation.css.map */
+}/*# sourceMappingURL=loading_animation.css.map */

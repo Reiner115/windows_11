@@ -1,7 +1,6 @@
 .menu {
   position: absolute;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  transform: translate(-50%);
   left: 50%;
   bottom: 20px;
   width: 400px;
@@ -9,45 +8,51 @@
   background-color: rgba(242, 242, 242, 0.6);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   z-index: 10;
   border-radius: 8px;
   padding: 16px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: min-content;
-      grid-template-rows: -webkit-min-content;
-      grid-template-rows: min-content;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
   overflow: hidden auto;
-  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1), -2px 7px 5px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1), -2px 7px 5px 0px rgba(0, 0, 0, 0.1);
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1), -2px 7px 5px 0px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: 100px;
   z-index: 101;
+  overflow: auto;
 }
 
 .menu-item-container {
   margin: auto;
   width: 100px;
   height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-item {
   width: 40px !important;
   height: 40px !important;
 }
-/*# sourceMappingURL=menu.css.map */
+
+@media screen and (max-width: 720px) {
+  .menu {
+    gap: 4px;
+    width: 300px;
+    height: 320px;
+    overflow: auto;
+    bottom: 4rem;
+  }
+  .menu-item-container {
+    width: 80px;
+    height: 80px;
+  }
+  .menu-item {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}/*# sourceMappingURL=menu.css.map */
